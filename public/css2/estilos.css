@@ -1,0 +1,232 @@
+  body{
+
+  	font-family: 'Indie Flower', cursive;
+  	font-size: 16px;
+  }
+
+  header{
+
+  	background-color: #604214;
+  	text-align: left;
+
+  }
+  header figure{
+  	float: left;
+  	margin-left: 100px;
+
+  }
+  header figure img{
+  	height: 60px;
+  	width: 60px;
+  	border-radius: 50%;
+
+
+  }
+  header h1{
+  	color: #f7f7f7;
+  	float: left;
+  	font-size: 1.6em;
+  	display: block;
+  	margin: 7px 80px 0px 50px;
+  	padding: 0px;
+
+  }
+
+  header nav ul{
+
+  	padding: 0px;
+  	margin: 0px;
+  	text-align: center;
+  	list-style: none;
+  }
+  header nav ul li{
+
+  	height: 35px;
+  	margin-top: 10px;
+  	width: 100%;
+  	display: inline-block;
+  	
+  }
+  header nav ul li a{
+
+  	text-decoration: none;
+  	font-weight: bold;
+  	color: #f7f7f7;
+  	padding: 15px 25px;
+
+  }
+  section{
+    background: url(../img/fondo.jpg);
+    background-repeat: no-repeat;
+  }
+  
+  section article.recetas{
+    border-radius: 0px 0px 15px 15px;
+    border-style: solid;
+    border-width: 2px;
+    display: inline-block;
+    font-size: 1.2em;
+    margin: 50px 0px 20px 10%;
+    position: relative;
+    vertical-align: top; 
+    width: 85%;
+  }
+  
+  section article.recetas figure {
+    
+    float: left;
+    margin-left: -30px;
+    margin-top: -50px;
+
+  }
+  section article.recetas figure img{
+
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 5px;
+    height: 140px;
+    width: 180px;
+
+  }
+  section article.recetas div{
+
+    width: 90%;
+    margin: 30px 4% 10px 5%;
+    border-width: 2px;
+    border-style: solid;
+    position: relative;
+    padding-top: 20px;
+    font-size: 0.9em;
+    border-radius: 15px;
+  }
+
+  section article.recetas div span{
+
+    position: absolute;
+    top: -15px;
+    left: 10px;
+    line-height: 20px;
+    border-radius: 15px;
+    text-decoration: underline;
+    background-color: white;
+    padding: 3px 10px;
+  }
+
+section article.recetas div ul{
+
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+
+}
+section article.recetas div ul li{
+
+  font-weight: bolder;
+  vertical-align: middle;
+  display: inline-block;
+  margin: 5px 3%;
+  width: 26%;
+
+}
+  section article.recetas h2{
+
+    padding: 0px;
+    text-align: right;
+    margin: 15px 20px 0 px 165px; 
+    font-size: 1.2em;
+  }
+
+  section article.recetas p{
+
+    font-size: 0-8em;
+    text-align: justify;
+    margin: 15px 10px 5px 30px;
+
+
+  }
+
+
+  section article.recetas span.tipo{
+    color: #f7f7f7;
+    border-radius: 15px 15px 0px 0px;
+    border-style: solid;
+    border-width: 2px;
+    font-weight: bolder;
+    height: 30px;
+    line-height: 30px;
+    padding: 2px 10px;
+    position: absolute;
+    right: -2px;
+    top:-38px;
+
+  }
+
+/*----------------------colores del desayuni*/
+
+section.article.desayuno, 
+section.article.desayuno figure img, 
+section.article.desayuno div, 
+section.article.desayuno span.tipo{
+
+  border-color: #082E0B;
+
+}
+
+section article.desayuno h2{
+
+    color: #154419;
+}
+section article.desayuno span.tipo, 
+section article.desayuno div, 
+section article.desayuno div span{
+
+  background-color: #154419;
+}
+section article.desayuno{
+  background-color: #c0ee90;
+
+}
+section article.desayuno p{
+  color: #3e7242;
+
+}
+section article.desayuno div span, 
+section article.desayuno div ul li{
+
+  color: #9cd95c;
+}
+
+
+ @media screen and (min-width: 480px){
+
+  header nav ul li{
+    width: 22px;
+
+
+  }
+ }
+
+ @media screen and (min-width: 767px){
+
+  header nav ul li{
+    width: 8%;
+
+  }
+
+  section article.recetas{
+    margin: 50px 3% 20px 6%;
+    width: 40%
+  }
+
+ }
+
+ @media screen and (min-width: 970px){
+
+  
+
+  section article.recetas{
+    margin: 50px 1% 20px 5%;
+    width: 26%
+  }
+
+ }
